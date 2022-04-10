@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-  options := notificationOptions{
+  options := notifierOptions{
     title: "News",
     text: "You are amazing.",
     subtitle: "My subtitle",
