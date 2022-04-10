@@ -1,4 +1,4 @@
-package notification
+package notifier
 
 import (
 	"errors"
@@ -8,14 +8,14 @@ import (
 	version "github.com/wobsoriano/go-macos-version"
 )
 
-type notificationOptions struct {
+type notifierOptions struct {
 	title    string
 	text     string
 	subtitle string
 	sound    string
 }
 
-func DisplayNotification(n notificationOptions) error {
+func DisplayNotification(n notifierOptions) error {
 	version.AssertMacOSVersion(">=10.9")
 
 	if len(n.title) == 0 {

@@ -27,7 +27,7 @@ func main() {
     sound: "Hero", // Check ~/Library/Sounds or /System/Library/Sounds for available sounds
   }
 
-	err := notification.DisplayNotification(options)
+	err := notifier.DisplayNotification(options)
 }
 ```
 
