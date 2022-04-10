@@ -2,6 +2,8 @@
 
 Send desktop notifications to OSX 10.9 or higher.
 
+![](sample.png)
+
 ## Install
 
 ```bash
