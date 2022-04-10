@@ -18,7 +18,7 @@ type notifierOptions struct {
 func DisplayNotification(n notifierOptions) error {
 	version.AssertMacOSVersion(">=10.9")
 
-	if len(n.title) == 0 {
+	if len(n.title) == 0 || len(n.text) == 0 {
 		return errors.New("title or text is required")
 	}
 
