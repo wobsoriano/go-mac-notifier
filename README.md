@@ -16,9 +16,9 @@ $ go get github.com/wobsoriano/go-mac-notifier
 package main
 
 import (
-	"log"
+  "log"
 
-	"github.com/wobsoriano/go-mac-notifier"
+  "github.com/wobsoriano/go-mac-notifier"
 )
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
     sound: "Hero", // Check ~/Library/Sounds or /System/Library/Sounds for available sounds
   }
 
-	err := notifier.DisplayNotification(options)
+  err := notifier.DisplayNotification(options)
 }
 ```
 
