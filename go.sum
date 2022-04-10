@@ -1,0 +1,6 @@
+github.com/Masterminds/semver v1.5.0 h1:H65muMkzWKEuNDnfl9d70GUjFniHKHRbFPGBuZ3QEww=
+github.com/Masterminds/semver v1.5.0/go.mod h1:MB6lktGJrhw8PrUyiEoblNEGEQ+RzHPF078ddwwvV3Y=
+github.com/wobsoriano/go-jxa v0.1.1 h1:VY+ulIVMiCAhSiC4PNXs2y9YDK/i67StR7stQNdyXcY=
+github.com/wobsoriano/go-jxa v0.1.1/go.mod h1:a7SNkng5zQnaCD59C93XkPh5A6gAL/T5nhxHOhmjufk=
+github.com/wobsoriano/go-macos-version v0.1.2 h1:f5P0X2dqMOoRONkTSUPbAQ6YV2N3SOmJwErdrr3EiCI=
+github.com/wobsoriano/go-macos-version v0.1.2/go.mod h1:jpf39fsNzfivDuSyvPPLYUSOCj0gkt3JQJCUw4vrXoU=
